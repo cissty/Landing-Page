@@ -39,7 +39,7 @@
 
   }
   .bgcolor-f-header{
-    background-image: linear-gradient(rgba(17, 27, 68, 0.7),rgba(12, 21, 59, 0.7)), url(sky.jpg);
+    background-image: linear-gradient(rgba(17, 27, 68, 0.7),rgba(12, 21, 59, 0.7)), url(photos/sky.jpg);
     background-position:center;
     background-size:cover;
     position:relative;
@@ -51,7 +51,7 @@
   }
 
 #quotes-section{
-  background-image: linear-gradient(rgba(17, 27, 68, 0.7),rgba(12, 21, 59, 0.7)), url(quotes.png);
+  background-image: linear-gradient(rgba(17, 27, 68, 0.7),rgba(12, 21, 59, 0.7)), url(photos/quotes.png);
   background-position:center;
   background-size:cover;
   position:relative;
