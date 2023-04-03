@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ca26679566.js" crossorigin="anonymous"></script>
 </head>
 <body>
- <div class="main-container">
     <div class="bgcolor-f-header">
     <div class="bars">
-            <div class="header">    
-                <p class="header-logo">Header Logo</p> 
+            <div class="header"> 
+                <div class="leftsection">
+                   <a href="https://www.cissty.com"><img src="clogo.jpg" class="header-logo" alt="thy logo"></a> 
+                   <div class="cissty-airlines">
+                    <p class="thy-text"><a href="https://www.cissty.com">Cissty Airlines</a></p>
+                   </div>
+                </div>   
+                
                 <div class="header-links">
                     <ul>
-                        <li class="link one">header link one</li>
-                        <li class="link two">header link two</li>
-                        <li class="link three">header link three</li>
+                        <li class="link one">Plan&Book</li>
+                        <a href="#section-2"><li class="link two">Discover</li></a>
+                        <a href="#quotes-section"><li class="link three">Quotes</li></a>
+                        <li class="link four">Sign-in</li>
                     </ul>
                 </div>
             </div>
@@ -26,15 +33,19 @@
         <div class="section-1">
           <div class="content-1">
                 <div class="textes">
-                   <h1 class="first-text">This website is awesome</h1>
-                     <p class="secondary-text">This website has some subtext that goes here under the main title. It's a smallar font and the color is lower contrast</p>
+                   <h1 class="first-text">We Fly The Most </h1>
+                     <p class="secondary-text">Currently, Our airline flies to 122 countries and 304 destinations all around the world; <br> 114 destinations in Europe, 17 destinations in America, 37 destinations in Far East & Asia, <br> 53 destinations in Africa and 35 destinations in Middle East.</p>
                  </div>
                  <div class="but-cont">
                    <button class="sign-but">Sign up</button>
                 </div>
+                <div class="promo">
+                    <p>Sign Up for Promotions & Offers</p>
+                </div>
+           
           </div>
-          <div class="content-2">
-             <img src="" alt="asdasd">
+          <div id="content-2">
+            <img class="content-gif" src="airplane.gif" alt="">
            </div>          
        </div> 
      </div>
@@ -42,26 +53,31 @@
 
 <!---------------ALT KISIM ------------------>
 
-        <div class="section-2">
+        <div id="section-2">
             <div class="bgcolor-f-section-2">
                 <div class="bars">
-                    <h2 style="text-align: center;">Some random information.</h2>
-                    <div class="info-containers">
+                    <h2 style="" class="popular">Popular Destinations — World</h2>
+                    <div id="info-containers">
                         <div class="inf-cont">                           
-                                <div class="img-cont"></div>
-                                <p class="image-text">this is some subtext under an illustration or image</p>
+                               <img class="img-cont" src="london.jpg" alt="">
+                               <p class="image-text">From Shoreditch’s swaggering style to Camden’s punky vibe and chic Portobello Road, London is many worlds in one. The city’s energy means that no two days are the same. Explore royal or historic sites, tick off landmarks from your bucket list, eat and drink in exclusive Michelin-starred restaurants, enjoy a pint in a traditional pub.</p>
+                               <div class="layer">
+                                <h3>LONDON</h3>
+                               </div>
                         </div>
-                        <div class="inf-cont">
-                            <div class="img-cont"></div>
-                                <p class="image-text">this is some subtext under an illustration or image</p>
-                        </div>
-                        <div class="inf-cont">
-                            <div class="img-cont"></div>
-                                <p class="image-text">this is some subtext under an illustration or image</p>
-                        </div>
-                        <div class="inf-cont">
-                            <div class="img-cont"></div>
-                            <p class="image-text">this is some subtext under an illustration or image</p>     
+                        <div class="inf-cont">                           
+                            <img class="img-cont" src="dubai.jpg" alt="">
+                            <p class="image-text">Dubai is a destination that mixes modern culture with history, adventure with world-class shopping and entertainment. Catch a show at the Dubai Opera, see downtown from atop the Burj Khalifa and spend an afternoon along Dubai Creek exploring the gold, textile and spice souks. If you’re looking for thrills, you can float above the desert dunes in a hot air balloon</p>
+                            <div class="layer">
+                             <h3>DUBAI</h3>
+                            </div>
+                        </div>  
+                        <div class="inf-cont">                           
+                            <img class="img-cont" src="bali.jpg" alt="">
+                            <p class="image-text">Bali is a living postcard, an Indonesian paradise that feels like a fantasy. Soak up the sun on a stretch of fine white sand, or commune with the tropical creatures as you dive along coral ridges or the colorful wreck of a WWII war ship.</p>
+                            <div class="layer">
+                             <h3>BALI</h3>
+                            </div>
                         </div>
                     </div>
             </div>
@@ -69,15 +85,22 @@
       </div>
 
 
-        <div class="sign-up">
+        <div id="quotes-section">
             <div class="bgcolor-f-sign-up">
                 <div class="bars">
            
                     <div class="quote">
-                       <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's a just filling up space, or maybe people will actually read it . Who knows? All I know is  that it looks nice.</p>
+                        <ul>
+                            <li></i></span> “The journey of a thousand miles begins with a <strong> single step.</strong>”</li>
+                            <li>“<strong>Live life </strong>with no excuses, travel with no regret.”</li>
+                            <li>“Travel opens your heart, <strong>broadens your mind</strong>”</li>
+                            <li>“Travel is the <strong>healthiest </strong> addiction”</li>
+                            <li>“Life is short, and <strong> the world </strong>is wide.”</li>
+                            <li><strong style="color:rgb(252, 20, 116)">“Work, Travel, Save, Repeat.”</strong> </li>
+                        </ul>
                      
-                        <div class="author">
-                            <p>-Thor, God of Thunder</p>
+                        <div class="icons">
+                            <p> <i class="fa-solid fa-globe"></i> <i class="fa-solid fa-plane"></i> <i class="fa-solid fa-location-dot"></i> <i class="fa-regular fa-sun"></i> <i class="fa-solid fa-umbrella-beach"></i></p>
                         </div> 
                     </div>  
                     </div>
@@ -90,7 +113,7 @@
             <div class="bars">
                 <div class="action-main">
                     <div class="text">
-                    <p class="call"><strong><span class="action-span">Call to action! It's time!</span> </strong><br>Sign up for our product by clicking that button right over there!</p>
+                    <p class="call"><strong><span class="action-span">Call to action! It's time to TRAVEL!</span> </strong><br>Sign up for our <a href=""><strong> airlines</strong></a> by clicking that button right over there!</p>
 
                     </div>
                     <div class="buton">
@@ -108,6 +131,5 @@
         </div>
    
  
-</div>
 </body>
 </html>
